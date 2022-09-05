@@ -55,17 +55,23 @@
 
   <body class="debug">
     <header>
-      <nav class="navbar bg-dark navbar-dark">
+      <nav class="pt-2 bg-dark navbar-dark">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1">Navbar</span>
+          <div class="row justify-content-between">
+            <div class="col-md-2">
+               <span class="navbar-brand mb-0 h1">Navbar</span>
+            </div>
+            <div class="col-md-1 "> <button class="btn btn-warning"> Add .25</button></div>
+          </div>
+         
         </div>
       </nav>
     </header>
     <main>
       <section class="container-fluid">
         <div class="row ">
-          <div class="col-md-9 p-5 bg-light ">
-            <div class="row justify-content-center flex-wrap">
+          <div class="col-md-9 p-2 bg-light ">
+            <div class="row justify-content-center">
               <!-- ---------------------------------- -->
               <div class="card" style="width: 18rem">
                 <img
@@ -166,7 +172,8 @@
 
           </div>
 
-          <div class="col-md-3 bg-dark text-light"><h1>CHECK OUT</h1></div>
+          <div class="col-md-3 bg-dark text-light"><h1>Total $$$ #GonnaGetRich</h1>
+          <div id="money" class="col-12 border border-3 border-light p-2"></div></div>
         </div>
       </section>
     </main>
